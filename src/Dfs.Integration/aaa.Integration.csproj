@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dfs.Data.Storefront\aaa.Data.Storefront.csproj" />
+    <ProjectReference Include="..\Dfs.DomainModel\aaa.DomainModel.csproj" />
+    <ProjectReference Include="..\Dfs.Infrastructure\aaa.Infrastructure.csproj" />
+    <ProjectReference Include="..\Dfs.Integration.VeraCore\aaa.Integration.VeraCore.csproj" />
+    <ProjectReference Include="..\Dfs.ServiceWorker\aaa.ServiceWorker.csproj" />
+  </ItemGroup>
+</Project>

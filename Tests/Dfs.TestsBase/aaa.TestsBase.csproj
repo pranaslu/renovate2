@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="4.5.2.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Dfs.Data.Storefront\aaa.Data.Storefront.csproj" />
+    <ProjectReference Include="..\..\src\Dfs.Web\aaa.WebApi.csproj" />
+  </ItemGroup>
+</Project>

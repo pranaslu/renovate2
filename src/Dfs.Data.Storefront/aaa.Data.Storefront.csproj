@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dfs.Core\aaa.Core.csproj" />
+    <ProjectReference Include="..\Dfs.Models\aaa.Models.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Authorizaton\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Authorizaton\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Authorizaton\**" />
+  </ItemGroup>
+</Project>
