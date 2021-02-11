@@ -24,7 +24,7 @@
     <ProjectReference Include="..\Dfs.Data.Storefront\aaa.Data.Storefront.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System">
